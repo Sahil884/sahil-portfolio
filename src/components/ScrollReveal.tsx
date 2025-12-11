@@ -7,7 +7,7 @@ export default function ScrollReveal() {
     const revealEls = document.querySelectorAll(".reveal");
 
     const revealOnScroll = () => {
-      const trigger = window.innerHeight * 0.85;
+      const trigger = window.innerHeight * 0.4;
 
       revealEls.forEach((el) => {
         const rect = el.getBoundingClientRect();

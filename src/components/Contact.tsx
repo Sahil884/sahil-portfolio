@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="pt-6 pb-4">
+    <section id="contact" className="pt-6 pb-4  ">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -16,7 +16,7 @@ export default function Contact() {
           grid md:grid-cols-4 gap-12 
           text-base text-gray-300 
           rounded-3xl bg-black/30 border border-white/10 
-          p-12 backdrop-blur-md
+          p-12 backdrop-blur-md primary/50 shadow-lg shadow-primary/20
         "
       >
         {/* Column 1 — Sahil */}
